@@ -21,7 +21,7 @@ namespace B_E_Task3
         static bool IsPrime(int x)
         {
             if (x < 4) return true;
-            for (int i = 2; i*i < x; i++)
+            for (int i = 2; i*i-1 < x; i++)
             {
                 if (x % i == 0) return false;
             }
